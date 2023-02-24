@@ -1,0 +1,10 @@
+{
+  "baseFontSize": 19,
+  "theme": "obsidian",
+  "cssTheme": "Obsidian gruvbox",
+  "enabledCssSnippets": [
+    "graph",
+    "list"
+  ],
+  "accentColor": ""
+}

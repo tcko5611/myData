@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "ec1e83b4431be01e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a71b69bfa0e2875",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd63a0a185a21c5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Archives/Daily note/2023-02-23.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd2eecaec416dc8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2365cd04b03f5e9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Archives/Daily note/2023-02-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2f8b7ab66b0d58c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b441d3ef0a3416d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bb889ab0e2815c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3d3cba7a71167559",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Status/Progress",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea95b9aaa176a475",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d023a8881799aa9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "88fbf4945ae6da36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64c6150fdb12362c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tools/Git.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "69e5700a5daa47a8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tools/Git.md"
+              }
+            }
+          },
+          {
+            "id": "1cdc0e399c4569c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c27c20a1dfd26e50",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "c48d7e5f4afaead7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "914fa31e27656d33",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Tools/Git.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.09392927902846991,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "cd2eecaec416dc8b",
+  "lastOpenFiles": [
+    "Archives/Daily note/2023-02-24.md",
+    "Archives/Daily note/2023-02-23.md",
+    "Work/4004, SiFa flow/4092, what-if CF App.md",
+    "Archives/Daily note/2023-02-22.md",
+    "Programming language/unix/sed.md",
+    "Work/4004, SiFa flow/4091, what-if cockpit.md",
+    "Archives/Daily note/2023-02-21.md",
+    "Archives/Daily note/2023-02-20.md",
+    "Archives/Daily note/2023-02-18.md",
+    "Archives/Daily note/2023-02-19.md",
+    "Programming language/unix/small_tools.md"
+  ]
+}

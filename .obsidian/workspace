@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "ec1e83b4431be01e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a87093894dcbadff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Archives/Daily note/2022-10-14.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2f8b7ab66b0d58c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b441d3ef0a3416d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bb889ab0e2815c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d3cba7a71167559",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Status/Progress",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea95b9aaa176a475",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d023a8881799aa9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "88fbf4945ae6da36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64c6150fdb12362c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Archives/Daily note/2022-10-14.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c27c20a1dfd26e50",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "69e5700a5daa47a8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Archives/Daily note/2022-10-14.md"
+              }
+            }
+          },
+          {
+            "id": "1cdc0e399c4569c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "c48d7e5f4afaead7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "914fa31e27656d33",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Archives/Daily note/2022-10-14.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.713275462622442,
+                  "close": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "a87093894dcbadff",
+  "lastOpenFiles": [
+    "Work/3615, CF App MSV Beta/3739, MSV FuSa save load view not working.md",
+    "tags/work_doing.md",
+    "Work/Misc Jiras/3720, Report measurements.md",
+    "Work/CF cockpit/3254, cleanup_level.md",
+    "Work/CF cockpit/3225, sqa too slow.md",
+    "Archives/Daily note/2022-10-09.md",
+    "Archives/Daily note/2022-10-08.md",
+    "Work/Tools/License.md",
+    "Archives/Daily note/2022-10-07.md",
+    "Archives/Daily note/2022-10-06.md"
+  ]
+}

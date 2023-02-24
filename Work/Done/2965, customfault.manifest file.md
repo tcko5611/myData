@@ -1,0 +1,1 @@
+2965, create customfault.manifest file under $CF_HOME/bin

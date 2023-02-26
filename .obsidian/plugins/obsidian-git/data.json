@@ -12,7 +12,7 @@
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",
-  "gitPath": "C:\\msys64\\bin\\git.exe",
+  "gitPath": "C:\\Program Files\\Git\\cmd\\git.exe",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,

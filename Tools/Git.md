@@ -3,7 +3,7 @@
 * choose developer setting
 *  choose personal access tokens
 * generate token to use
-`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`
+`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`
 # git SSL connection
 ```
 git config --global http.sslbackend schannel

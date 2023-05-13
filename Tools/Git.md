@@ -151,3 +151,12 @@ commit e802
 ....
 git diff e802 fe6a MfgWidget.h
 ```
+# git for remote replace
+``` bash
+git fetch --all
+git branch backup-master
+git reset --hard origin/main
+git remote -v
+git branch -r
+git remote show origin
+```

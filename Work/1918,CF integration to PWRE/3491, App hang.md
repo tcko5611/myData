@@ -6,7 +6,7 @@ priority : 1
 # Metadata
 Status :: #Status/Done
 Type :: #CF/GUI 
-Topics :: [[QAbstractTableModel]]
+Topics :: [[Qt Model, View, Delegate]]
 # Note
 ## model classes for tableViewUnivereFlist
 * faultListProxyModel_ (*SimpleSortFilterProxyModel* <- *QSortFilterProxyModel*) -> model of tableViewUniverseFlist, by setModel

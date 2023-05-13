@@ -1,14 +1,21 @@
 ---
-date : 2022-06-13 10:22
-aliases : []
-priority : 2
+date : 2023-03-08 14:15
+priority : 1
 ---
 # Metadata
-Status :: #Status/Progress 
-Type :: #CF/QA 
-Topics :: # Metadata
+Status :: #Status/Done 
+Type :: #CF/GUI 
+# Question
+How to run CF APP
+# Answer
 # Note
-* primewave don't need to set "step" in "tran" staements, finesim need or finesim will fail.
-* using *cp -RP ../../../unit_cf/gui .* to create a run directory
-* create ~/.tmpdisplay with your $DISPLAY
-* using /slowfs/fs_qae13/minfan/P4_CLIENTS/sith_case_t2022.06_dev/unit_common/sith/scripts/sith_launch -bin=/u/cdmgr/image/CUSTOMCOMPILER/T-2022.06/latest_with_pw/Testing/bin/custom_compiler -simulator=/global/apps/primesim_2022.06/bin/primesim -dir=/remote/hsim_eng2/ktc/ktc_dev_customfault/object_root/customfault/linux64/gui -host=/remote/hsim_eng2/ktc/ktc_dev_customfault/csim/src/rules/whitebox_mach.LINUX64 -env=PATH+=/remote/hsim_eng2/ktc/ktc_dev_customfault/customfault/snps/customfault/nightly_opt/bin to run simulation
+## process for run CF APP QA
+* cp -rP <p4_client>/unit_cf/gui .
+* run command
+``` sh
+/remote/swefs1/PE/products/cktsim/u2023.03_dev/clientstore/cktsim_u2023.03_dev_testcase/unit_common/sith/scripts/sith_launch -host=/remote/hsim_eng2/ktc/ktc_dev_customfault/csim/src/rules/whitebox_mach.LINUX64 -bin=/remote/swefs1/PE/products/cd/u2023.03_dev/image/nightly/customcompiler_optimize/latest_with_pw/Testing/bin/custom_compiler  -simulator= /remote/swefs1/PE/products/cktsim/u2023.03_dev/image/nightly/csim_optimize/latest/Testing/bin/xa -env=PATH+=/remote/hsim_eng2/ktc/ktc_dev_customfault/customfault/snps/customfault/nightly_opt/bin
+```
+* gather result include uncompleted result
+```bash
+/remote/swefs1/PE/products/cktsim/u2023.03_dev/clientstore/cktsim_u2023.03_dev_testcase/unit_common/sith/scripts/sith_gather > tt
+```

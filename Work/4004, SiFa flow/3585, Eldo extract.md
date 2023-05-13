@@ -1,9 +1,9 @@
 ---
 date : 2023-02-14 08:01
-priority : 2
+priority : 1
 ---
 # Metadata
-Status :: #Status/Progress 
+Status :: #Status/Done
 Type :: #CF/GUI 
 # Question
 How to integrate extract into CF App?

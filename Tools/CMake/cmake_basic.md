@@ -8,7 +8,7 @@
 ```
 $ mkdir Debug
 $ cd Debug
-$ cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Debug
+$ cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Debug ..
 $ make VERBOSE=1
 ```
 # Basic structure
@@ -182,7 +182,7 @@ add_custom_command(OUTPUT ${LIBFOO_TAR_HEADERS}
 add_custom_target(libfoo_untar DEPENDS ${LIBFOO_TAR_HEADERS})
 
 add_library(foo INTERFACE)
-target_include_directories(foo INTERFACE "${CMAKE_CURRENT_BINARY_DIR}/include/foo")
+target_include_directories(foo PUBLIC "${CMAKE_CURRENT_BINARY_DIR}/include/foo")
 target_link_libraries(foo INTERFACE ${FOO_LIBRARIES})
 
 ```
@@ -338,6 +338,7 @@ IF(FLEX_FOUND)
     ADD_CUSTOM_COMMAND(
       OUTPUT ${FlexOutput}
       COMMAND ${FLEX_EXECUTABLE}
+		--header-file=${CMAKE_CURRENT_BINARY_DIR}/cfwvexprflex.h
         --outfile=${FlexOutput}
         --prefix=expr
         ${CMAKE_CURRENT_SOURCE_DIR}/scanner.ll

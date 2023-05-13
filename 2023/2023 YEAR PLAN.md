@@ -16,7 +16,14 @@ Objectives
 	* [ ] select behavior in treeView
 	* [ ] complete replay structure
 # 03
+Objectives
+* [x] SQA in CF App, p10241015-2849
+* [x] Macro model in CF, P10241015-4137
+* [ ] Replay Mechanism
+* [ ] New GUI Table for Meas
 # 04
+* [ ] Replay Mechanism
+* [ ] DCA flow
 # 05
 # 06
 # 07

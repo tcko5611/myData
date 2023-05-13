@@ -1,15 +1,9 @@
-```toc
- min_depth: 1
- max_depth: 6
-```
 # Binary path
 ## xa, customfault, finesim, primesim
 - /remote/swefs1/PE/products/cktsim/main/image/nightly/csim_optimize
 - /remote/swefs1/PE/products/cktsim/main/image/nightly/customfault_optimize
 - /remote/sweifs1/PE/products/cktsim/s2021.09_dev/image/nightly/finesim_optimize
 -  /remote/sweifs1/PE/products/cktsim/s2021.09_dev/image/nightly/primesim_optimize
-## wv
-- /remote/fs_qae17/util-exchange/wv/cx_daily/latest/bin/wv
 ## PrimeWave, CustomCompiler
 - /u/wvmgr/image/PrimeWave/T-2022.06/latest/Testing/bin
 - /u/cdmgr/image/CUSTOMCOMPILER/T-2022.06/latest/Testing/bin
@@ -18,7 +12,7 @@
 - symake install, synmake install-degug, synmake install-fulldebug
 - cd $\<client\>/csim/src/code/dki_cosim, synmake shlib-1, synmake shlib-debug-1
 ## cck
-- synmake install-cck, synmake install-debug-cck
+- synmake install, synmake install-debug
 ## customfault
 - synmake -k -j XA_RD_ssh TARGET_ARCH=linux64 P4ID=12345 -echo install-debug
 # Run Binary
@@ -28,17 +22,16 @@ export PVA_HDL=1
 export SNPS_PLATFORM=amd64
 export XA_HOME="/global/apps/xa_2014.09"
 export XA_GCC="/depot/qsc/QSCJ/bin/gcc"
-
 ```
 # CC enviroment
 ## cc inlcude files:
   /u/cdmgr/clientstore/cd_main_us01/snps/synopsys-infra/include
 ## cc binary:
-  /u/cdmgr/image/CUSTOMCOMPILER/T-2022.06/latest_with_pw/Testing/bin
-  /u/cdmgr/image/CUSTOMCOMPILER/T-2022.06/latest_with_pw/Testing/.pw_image/bin
+  /u/cdmgr/image/CUSTOMCOMPILER/U-2023.03/latest_with_pw/Testing/bin
+  /u/cdmgr/image/CUSTOMCOMPILER/T-2023.03/latest_with_pw/Testing/.pw_image/bin
 ## primewave binary:
-  /u/wvmgr/image/PrimeWave/T-2022.06/latest/Testing/bin
-  /u/wvmgr/image/PrimeWave/T-2022.06/latest/Testing/.cc_image/bin
+  /u/wvmgr/image/PrimeWave/U-2023.03/latest/Testing/bin
+  /u/wvmgr/image/PrimeWave/T-2023.03/latest/Testing/.cc_image/bin
 # sith
 ## CF
 ```bash
@@ -52,4 +45,12 @@ export XA_GCC="/depot/qsc/QSCJ/bin/gcc"
 # Example directory:
 ```
 /remote/tw_rnd1/ktc/prog/qt
+```
+# LSF
+```bash
+source /global/lsf/cells/ams_lsf_grid/conf/cshrc.lsf
+```
+## dpconfig file
+```
+1| |20|/tmp|CUSTOM|bsub -app batch -R \"select[os=CS7.3]\" -e ./bsub.err -o ./bsub.out
 ```

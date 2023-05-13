@@ -1,7 +1,7 @@
 # Collections
 
 ```python
-from collections import defaultdict/co
+from collections import defaultdict
 self.dict_1 = defaultdict(FdbData)
 ```
 

@@ -1,9 +1,9 @@
 ---
 date : 2023-02-23 09:15
-priority : 4
+priority : 1
 ---
 # Metadata
-Status :: #Status/Progress 
+Status :: #Status/Done
 Type :: #CF/GUI 
 # Question
 How to integrate What-if flow to CF App

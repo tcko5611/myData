@@ -4,7 +4,7 @@ aliases : []
 priority : 1
 ---
 # Metadata
-Status :: #Status/Progress 
+Status :: #Status/Done
 Type :: #CF/GUI 
 Topics :: # Metadata
 # Note

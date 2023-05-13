@@ -1,7 +1,7 @@
 ---
 date : 2022-06-28 15:49
 aliases : []
-priority : 1
+priority : 4
 ---
 # Metadata
 Status :: #Status/Progress 

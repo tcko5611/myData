@@ -6,5 +6,5 @@ priority : 1
 # Metadata
 Status :: #Status/Done 
 Type :: #CF/GUI 
-Topics :: [[QAbstractTableModel]], [[3491, App hang]]
+Topics :: [[Qt Model, View, Delegate]], [[3491, App hang]]
 # Note

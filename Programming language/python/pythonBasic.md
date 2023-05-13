@@ -258,12 +258,12 @@ if __name__ == '__main__' :
 #                        help = 'output compiled python file')
 #    args = parser.parse_args()
     py_compile.compile(sys.argv[1], sys.argv[2])
+```
+or 
+```bash
+python -m compileall <file_1>.py <file_n>.py
+```
 
-```
-## sorted
-```python
-keys = sorted(list(d.keys()), key = lambda x : float(x[:-2]))
-```
 # main to execute
 ```python
 if __name__ == "__main__":
@@ -275,3 +275,9 @@ if __name__ == "__main__":
 	win.show()
 	sys.exit(app.exec_())
 ```
+
+# Collection
+## defaultdict
+* initialize : defaultdict(int), defaultdict(list)
+* sort: sorted_d = sorted(self.ports.items(), key = lambda k_v : k_v[1], reverse=True)
+	* 

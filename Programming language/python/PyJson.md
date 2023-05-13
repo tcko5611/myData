@@ -1,4 +1,4 @@
-# Json dump and read from file
+wi# Json dump and read from file
 ``` python
 import json
 with open(fileName) as f:

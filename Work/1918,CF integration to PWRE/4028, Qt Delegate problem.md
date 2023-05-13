@@ -8,4 +8,4 @@ Type :: #CF/GUI
 Summary :: 
 Topics :: 
 # Note
-[[GUI#GUI#Delegate]]
+[[Qt GUI#GUI#Delegate]]

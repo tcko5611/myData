@@ -88,3 +88,15 @@ void commitAndCloseEditor() {
 	emit closeEditor(editor);
 }
 ```
+## QScrollArea
+```cpp
+	scrollArea_ = new QScrollArea(this);
+	scrollArea_->setWidgetResizable(true);
+	auto widget = new QWidget(scrollArea_);
+	scrollArea_->setWidget(widget);
+	auto v = new QVBoxLayout(widget);
+	widget->setLayout(v);
+	auto layout = scrollArea_->widget()->layout();
+```
+## Qt widget size
+QtSizePolicys : Fixed, Minimum, Maximum, Preferred, Expanding

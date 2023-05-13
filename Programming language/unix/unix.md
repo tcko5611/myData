@@ -20,3 +20,13 @@ diff -qr dir1 dir2 # compare files in two directories
 * **dolphin**: file browser
 # Gnome
 * **eog**: image viewer
+# Misc
+## stack size
+memory of *stack size* isused to store fucntion temporary and automatic variables 
+```bash
+$ ulimit -s
+8192
+```shell
+ulimit -s 65533
+```
+```

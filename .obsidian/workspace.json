@@ -4,35 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "9a71b69bfa0e2875",
+        "id": "3d76e325b1170688",
         "type": "tabs",
         "children": [
           {
-            "id": "cd2eecaec416dc8b",
+            "id": "4afb235f9f9e17f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archives/Daily note/2023-02-27.md",
+                "file": "Archives/Daily note/2023-05-07.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2437d26412fbfc4c",
+            "id": "900f7874275dc576",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Git.md",
+                "file": "Archives/Daily note/2023-05-10.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9836a1c1d204c11d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Archives/Daily note/2023-05-13.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "858e64098fc16128",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming language/python/pythonBasic.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,8 +85,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Status/Progress",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -75,6 +99,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "a512579529a06ed2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -98,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Git.md",
+                "file": "Archives/Daily note/2023-05-13.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Git.md"
+                "file": "Archives/Daily note/2023-05-13.md"
               }
             }
           },
@@ -151,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Tools/Git.md",
+                "file": "Archives/Daily note/2023-05-13.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,7 +206,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.1316872427983542,
+                  "scale": 0.09392927902846994,
                   "close": true
                 }
               }
@@ -199,26 +231,41 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "2437d26412fbfc4c",
+  "active": "9836a1c1d204c11d",
   "lastOpenFiles": [
-    "Archives/Daily note/2023-02-27.md",
-    "Work/2849, CF-App SQA/4190, CSQA Crash.md",
-    "Work/Tools/View tool for CF.md",
-    "Work/Tools/synmake.md",
-    "Tools/Git.md",
-    "Archives/Daily note/2023-02-26.md",
-    "Work/4004, SiFa flow/4092, what-if CF App.md",
-    "Work/Misc Jiras/4179, expr in CF App for cosim.md",
-    "Archives/Daily note/2023-02-25.md",
-    "Archives/Daily note/2023-02-24.md",
-    "Archives/Daily note/2023-02-23.md",
-    "Archives/Daily note/2023-02-22.md",
-    "Programming language/unix/sed.md",
-    "Work/4004, SiFa flow/4091, what-if cockpit.md",
-    "Archives/Daily note/2023-02-21.md",
-    "Archives/Daily note/2023-02-20.md",
-    "Archives/Daily note/2023-02-18.md",
-    "Archives/Daily note/2023-02-19.md",
-    "Programming language/unix/small_tools.md"
+    "Programming language/cpp/Using gdb to check.md",
+    "Archives/Daily note/2023-05-13.md",
+    "Programming language/cpp/thred pool.md",
+    "Archives/Daily note/2023-05-11.md",
+    "Work/3377, PAE App Testing/4259, include model files.md",
+    "Archives/Daily note/2023-05-10.md",
+    "Archives/Daily note/2023-05-08.md",
+    "Work/4221, SiFa Infinon/4242, n2n_short in Avalon.md",
+    "Programming language/python/pythonBasic.md",
+    "Archives/Daily note/2023-05-07.md",
+    "Programming language/python/PyJson.md",
+    "Archives/Daily note/2023-05-06.md",
+    "Work/XA/Gen Fault.md",
+    "Work/Misc Jiras/4137, Macro Model.md",
+    "Work/4004, SiFa flow/4260, Support what-if coverage recalculation with cck commands.md",
+    "Archives/Daily note/2023-05-05.md",
+    "Archives/Daily note/2023-05-04.md",
+    "Work/4221, SiFa Infinon",
+    "Archives/Daily note/2023-05-02.md",
+    "Work/CF app/CF FDV.md",
+    "Programming language/qt/Qt build.md",
+    "Archives/Daily note/2023-04-30.md",
+    "Archives/Daily note/2023-04-29.md",
+    "Archives/Daily note/2023-04-22.md",
+    "Archives/Daily note/2023-04-28.md",
+    "Programming language/qt/Qt graphics view, scene, item.md",
+    "Archives/Daily note/2023-04-27.md",
+    "Work/4264_sifa",
+    "Work/3561, MOS vth",
+    "Programming language/unix/bash.png",
+    "Work/4059, CF",
+    "Work/QA",
+    "Work/4188, CF App DCA",
+    "Untitled.canvas"
   ]
 }
